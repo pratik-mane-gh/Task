@@ -1,0 +1,66 @@
+<!--Online Course Advertisement 
+Design a simple course advertisement page.
+Requirements: 
+Course Banner Image 
+Course Description 
+Enroll Now Link 
+Demo Session Audio 
+Course Introduction Video-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Advertisement</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .right{
+            margin-left: 200px;
+        }
+    </style>
+</head>
+
+<body bgcolor="lightgray">
+
+
+    <img src="./Images/webdev.jpg" alt="Web Development Course" height="400" width="1600"> <br>
+
+
+    <div class="container">
+        <div class="left">
+            <div> <!-- Course Description -->
+                <div class="description">
+                    <h2>Course Description</h2>
+                    <ul>
+                        <li>Learn HTML, CSS, and JavaScript fundamentals</li>
+                        <li>Build responsive web applications</li>
+                        <li>Understand modern web development practices</li>
+                        <li>Work with popular web development frameworks</li>
+                    </ul>
+                </div>
+                <!-- Enroll Now Link -->
+                <div style="font-size: 20px;">
+                    <a href="https://www.example.com/enroll" class="enroll-btn" target="_blank">
+                        <b>Enroll Now</b>
+                    </a>
+                </div>
+                <br>
+                <!-- Demo Session Audio -->
+                <div class="demo-audio">
+                     <h2>Demo Session Audio</h2>
+                    <audio src="./web_development_demo.mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+             <h2>Demo Session Video</h2>
+            <video src="./videos/webdevelopment.mp4" controls height="300px"></video>
+        </div>
+    </div>
+</body>
+
+</html>
