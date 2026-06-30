@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Webpage</title>
+    <style>
+        body{
+            padding: 20px;
+        }
+        .heading{
+            color: #9d0707;
+        }
+
+        .profile{
+            height: 300px;
+            border-radius: 500px;
+        }
+        h3{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #cf6060;
+        }
+        ul,p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #4e2d2d;
+        }        
+        table{
+            margin: 20px;
+            text-align: center;
+        }
+        th,td{
+            padding: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #4e2d2d;
+        }
+        .college{
+            text-align: left;
+        }
+        video{
+            width: 700px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!--Create a simple student profile webpage that includes:
+
+   ●	Heading
+   ●	Student photo
+   ●	About Me paragraph
+   ●	Hobbies (unordered list)
+   ●	Educational Details (table)
+   ●	Favorite song (audio)
+   ●	Favorite video (video)
+   ●	Contact link (email using <a> tag)
+
+-->
+    <main>
+         <section class="heading">
+            <h1>Pratik Uddhav Mane</h1>
+         </section>
+
+
+         <section class="StudentPhoto">
+            <img src="./images/profile.jpg" alt="Profile Photo" class="profile">
+         </section>
+
+
+         <section class="aboutme">
+            <h3>About Me</h3>
+            <p>Hi, my name is <b>Pratik Uddhav Mane.</b> I am a <b>BBA(CA)</b> graduate from <u>Sinhgad College of Science, Pune</u>. 
+    I am currently learning <mark>Full Stack Web Development</mark> and improving my skills in HTML, CSS, JavaScript, 
+    Python, Django, SQL, Git and GitHub. </p>
+    <p>I enjoy creating simple and attractive web pages, and I am 
+    practicing by building projects like portfolio websites, course advertisement pages, tourist place pages 
+    and clone websites. My goal is to become a Full Stack Python Developer and build useful web applications.</p>
+         </section>
+
+
+         <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+               <li>Learning Web Development</li>
+               <li>Watching Movies and Web Series</li>
+               <li>Walking and Fitness</li>
+               <li>Listening to Music</li>
+               <li>Playing Outdoor Games</li>
+            </ul>
+         </section>
+
+         <section class="Education">
+            <h3>Educational Details</h3>
+            <table border="1">
+                <tr>
+                    <th>Course</th>
+                    <th>College Name</th>
+                    <th>Passing Year</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td class="college">Sadhana Vidyalaya ,Hadapsar</td>
+                    <td>2014</td>
+                    <td>76.80%</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td class="college">R.R.Shinde Junior College ,Pune</td>
+                    <td>2016</td>
+                    <td>50.78%</td>
+                </tr>
+                <tr>
+                    <td>BBS(CA)</td>
+                    <td class="college">Sinhgad College Of Science, Pune</td>
+                    <td>2020</td>
+                    <td>50.80%</td>
+                </tr>
+            </table>
+         </section>
+
+
+         <section class="song">
+            <h3>Favorite song</h3>
+            <img src="./images/bairan.jpg"><br>
+            <audio src="./audio/YTMP3GG_YouTube_Bairan-Animated-Love-Story-Banjaare-Offi_Media_oafxkMv4xnc_009_128k.mp3" controls muted></audio>
+         </section>
+
+         <section class="video">
+            <h3>Favorite video </h3>
+            <video src="./video/"></video>
+           
+
+         <section class="contact">
+            <h3>Contact link</h3>
+            <p><b>Email: </b>
+            <a href="#" target="_blank">manepratikofficial@gmail.com</a>
+            </p>
+            <p><b>Github: </b>
+            <a href="https://github.com/pratik-mane-gh" target="_blank">Github Link</a>
+            </p>
+            <p><b>Linkdin : </b>
+            <a href="https://www.linkedin.com/in/pratik-mane-4730a041a/" target="_blank">Linkdin link</a>
+            </p>
+         </section>
+
+    </main>
+    
+</body>
+</html>
