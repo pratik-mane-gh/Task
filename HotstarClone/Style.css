@@ -1,0 +1,95 @@
+/*
+.sidebar {
+    width: 70px;
+    height: 100vh;
+    background-color: #d8dbe0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px 20px;
+}
+
+.home{
+    height: 30px;
+}
+.sidebar a {
+    display: block;
+    color: #b5b5b5;
+    text-decoration: none;
+    margin: 25px 0;
+    font-size: 18px;
+}
+*/
+/*
+
+.Taivvan{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.nr{
+    color: rgb(20, 146, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height : 20px;
+}
+.period{
+    display: flex;
+}
+    */
+body {
+    background-color: rgb(124, 189, 247);
+}
+
+.hero {
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #000000, #1f3b73);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.hero-content h1 {
+    color: #dac8c8;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #d1d1d1;
+    margin-bottom: 20px;
+
+}
+
+.hero-content button {
+    padding: 12px 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.movies {
+    display: flex;
+    
+    gap: 5px;
+}
+
+
+.card img {
+    width: 200px;
+    height: 260px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+.card:hover {
+    transform: scale(1.20);
+}
